@@ -30,6 +30,7 @@ export const getExistingUser = async (id: string) => {
 export const storeUserData = async () => {
     try {
         const user = await account.get();
+        console.log(user)
         if (!user) throw new Error("User not found");
 
         const { providerAccessToken } = (await account.getSession("current")) || {};

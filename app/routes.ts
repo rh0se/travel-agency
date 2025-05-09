@@ -2,8 +2,11 @@ import type { RouteConfig } from "@react-router/dev/routes";
 
 const routes: RouteConfig = [
     {
+        file: "routes/root/sign-in.tsx",
+        path: 'sign-in'
+    },
+    {
         file: "routes/admin/admin-layout.tsx",
-        path: "/",
         children: [
             {
                 path: "dashboard",
