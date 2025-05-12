@@ -16,6 +16,14 @@ const routes: RouteConfig = [
                 path: "all-users",
                 file: "routes/admin/all-users.tsx",
             },
+            {
+                path: "trips",
+                file: "routes/admin/trips.tsx",
+            },
+            {
+                path: "trips/create",
+                file: "routes/admin/create-trip.tsx",
+            },
         ],
     },
 ];
