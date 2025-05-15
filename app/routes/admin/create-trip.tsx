@@ -1,4 +1,4 @@
-import { Header } from "components"
+import { Header } from "~/components"
 import { ComboBoxComponent } from "@syncfusion/ej2-react-dropdowns"
 import { LayerDirective, LayersDirective, MapsComponent } from "@syncfusion/ej2-react-maps"
 import type { Route } from "./+types/create-trip";

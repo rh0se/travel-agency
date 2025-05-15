@@ -1,4 +1,4 @@
-import { Header, StatsCard, TripCard } from 'components'
+import { Header, StatsCard, TripCard } from '~/components'
 import { getUser } from '~/appwrite/auth';
 import { dashboardStats, allTrips } from '~/constants';
 import type { Route } from './+types/dashboard';
