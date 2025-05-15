@@ -6,6 +6,10 @@ const routes: RouteConfig = [
         path: 'sign-in'
     },
     {
+        file: 'routes/api/create-trip.ts',
+        path: "/api/create-trip",
+    },
+    {
         file: "routes/admin/admin-layout.tsx",
         children: [
             {
