@@ -28,6 +28,10 @@ const routes: RouteConfig = [
                 path: "trips/create",
                 file: "routes/admin/create-trip.tsx",
             },
+            {
+                path: "trips/:tripId",
+                file: "routes/admin/trip-detail.tsx"
+            },
         ],
     },
 ];
